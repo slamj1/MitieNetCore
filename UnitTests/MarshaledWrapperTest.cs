@@ -8,10 +8,10 @@ namespace UnitTests
     public class MarshaledWrapperTest
     {
         // A sample text file to analyze
-        private const string SAMPLE_TEXT_FILE_NAME = @"..\..\..\..\sample1.txt";
+        private const string SAMPLE_TEXT_FILE_NAME = @"..\..\..\..\..\sample1.txt";
 
         // A Mitie trained sample ner model
-        private const string SAMPLE_MITIE_NER_MODEL = @"..\..\..\..\ner_model.dat";
+        private const string SAMPLE_MITIE_NER_MODEL = @"..\..\..\..\..\ner_model.dat";
 
         /// <summary>
         /// Loads a sample file into memory
