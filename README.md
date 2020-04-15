@@ -15,6 +15,9 @@ See sample XUnit test class file MarshaledWrapperTest for usage.
 I've included a 64 bit compiled version of MITIE - mitie.dll against the latest MITIE commit
 832cbd6 (Feb 10, 2019). Your consuming client will have to be compiled against a target of x64, or if 
 using AnyCPU, make sure it runs on a 64 bit OS.
+
+If running the Unit Tests or the TestConsoleApp, make sure to drop the trained ner model file into
+the root of the solution (where sample1.txt is located).
  
 
 # TODO:
