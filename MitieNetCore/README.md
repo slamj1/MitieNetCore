@@ -13,7 +13,7 @@ See sample XUnit test class file MarshaledWrapperTest for usage.
 **Notes**:
 
 I've included a 64 bit compiled version of MITIE - mitie.dll against the latest MITIE commit
-- 832cbd6 (Feb 10, 2019). Your consuming client will have to be compiled against a target of x64, or if 
+832cbd6 (Feb 10, 2019). Your consuming client will have to be compiled against a target of x64, or if 
 using AnyCPU, make sure it runs on a 64 bit OS.
  
 
