@@ -18,6 +18,8 @@ using AnyCPU, make sure it runs on a 64 bit OS.
 
 If running the Unit Tests or the TestConsoleApp, make sure to drop the trained ner model file into
 the root of the solution (where sample1.txt is located).
+
+Official Nuget is at -> https://www.nuget.org/packages/MitieNetCore/1.0.0 and is a 64bit build.
  
 
 # TODO:
