@@ -11,7 +11,7 @@ namespace TestConsoleApp
             IntPtr ptr = new IntPtr();
 
             // Load a sentence from a sample file
-            var sentence = MarshaledWrapper.Exec_mitie_load_entire_file(@"..\..\..\..\..\sample1.txt",
+            var sentence = MarshaledWrapper.Exec_mitie_load_entire_file(@"..\..\..\..\sample1.txt",
                                                                         ref ptr);
             
             Console.WriteLine($"Loaded sentence -> {sentence}\n");
@@ -33,7 +33,7 @@ namespace TestConsoleApp
 
             Console.WriteLine("\n");
             // Load the sample *trained* model
-            IntPtr entityExtractto = MarshaledWrapper.Exec_mitie_load_named_entity_extractor(@"..\..\..\..\..\ner_model.dat");
+            IntPtr entityExtractto = MarshaledWrapper.Exec_mitie_load_named_entity_extractor(@"..\..\..\..\ner_model.dat");
 
             // Get the mumber of detections
             IntPtr detections = MarshaledWrapper.Exec_mitie_extract_entities(entityExtractto, tokens);
