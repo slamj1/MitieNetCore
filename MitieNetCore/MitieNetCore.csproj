@@ -19,6 +19,14 @@
     <Title>MitieNetCore</Title>
     <PackageReleaseNotes>Updated to .NET 7</PackageReleaseNotes>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
   
   <ItemGroup>
     <Compile Remove="Wrappers\UnsafeWrapper.cs" />
