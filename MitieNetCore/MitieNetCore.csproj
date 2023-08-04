@@ -7,8 +7,8 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>SaasyCloud™.com</Company>
     <Authors>Sam Morreel</Authors>
-    <Version>1.0.1</Version>
-    <Copyright>Copyright © 2020-2022 by Sam Morreel, SaasyCloud™.com</Copyright>
+    <Version>1.0.2</Version>
+    <Copyright>Copyright © 2020-2023 by Sam Morreel, SaasyCloud™.com</Copyright>
     <Description>A C# .Net Core standard library that wraps the MITIE NLP C++ library.</Description>
     <PackageTags>netcore dotnetcore API MITIE library C# nlp nlu AI</PackageTags>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
@@ -17,7 +17,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/slamj1/MitieNetCore</PackageProjectUrl>
     <Title>MitieNetCore</Title>
-    <PackageReleaseNotes>Updated to .NET 6</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to .NET 7</PackageReleaseNotes>
   </PropertyGroup>
   
   <ItemGroup>
