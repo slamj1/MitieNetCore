@@ -24,7 +24,7 @@ namespace UnitTests
             var sentence = MarshaledWrapper.Exec_mitie_load_entire_file(SAMPLE_TEXT_FILE_NAME,
                                                                         ref ptr);
 
-            Assert.NotNull((object)ptr); // Casted to avoid warning
+            Assert.True(!string.IsNullOrEmpty(sentence));
         }
 
         /// <summary>
@@ -83,13 +83,14 @@ namespace UnitTests
             IntPtr ptr = new IntPtr();
             var sentence = MarshaledWrapper.Exec_mitie_load_entire_file(SAMPLE_TEXT_FILE_NAME,
                                                                         ref ptr);
+            Assert.True(!string.IsNullOrEmpty(sentence));
 
             IntPtr tokens = new IntPtr();
             MarshaledWrapper.Exec_mitie_tokenize(sentence, ref tokens, false);
 
             IntPtr ner = MarshaledWrapper.Exec_mitie_load_named_entity_extractor(SAMPLE_MITIE_NER_MODEL);
 
-            Assert.NotNull((object)ner);
+            
 
             // Free unmanaged memory 
             MarshaledWrapper.Exec_mitie_free(tokens);
